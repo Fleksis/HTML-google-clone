@@ -8,20 +8,34 @@
   <body>
 
     <style>
-      .position-vieta {
-        position: relative;
-        color: red;
-        text-align: center;
-      }
-
-      .bilde-pizicija {
+      body {background-color: rgb(50, 50, 50);}
+      .bilde-pizicija-horizontāli {
         display: block;
         margin-left: auto;
         margin-right: auto;
       }
-      </style>
+      .Stils {
+        margin: auto;
+        border: 3px solid #ff0000;
+        padding: 10px;
+      }
+      .vertikals {
+        margin-top: 108px;
+      }
+      .searchbar {
+        border: 1px solid #2a2a2a;
+        background-color: #a1a1a1;
+        color: #ffff;
+      }
+      .lielums {
+        width: 25%;
+      }
+    </style>
 
-  <img class='bilde-pizicija' src="logo.png" alt="Google Logo">
-  <p class='position-vieta'>Teksts</p>
+  <img class=' bilde-pizicija-horizontāli vertikals' src="logo.png" alt="Google Logo">
+
+  <input class='lielums searchbar Stils bilde-pizicija-horizontāli vertikals'  type="text" placeholder="Ko jūs vēlaties meklēt?" Nepieciešams>
+
+  <button class='bilde-pizicija-horizontāli' type="Meklēt!">Meklēt</button>
   </body>
 </html>
