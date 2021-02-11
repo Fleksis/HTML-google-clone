@@ -10,7 +10,16 @@
 
   <body>
     <style>
-      body {background-color: rgb(50, 50, 50);}
+      .izvelne {
+        position: absolute;
+        cursor: pointer;
+        margin-left: 91.5%;
+        margin-top: -87px;
+        width: 27px;
+        height: 24px;
+
+      }
+      body {background-color: rgb(255, 255, 255);}
       .signin-poga {
         position: absolute;
         border: none;
@@ -44,12 +53,13 @@
         color: rgba(0,0,0,.87);
         margin-top: 170px;
         outline: 0;
+        align
       }
       .podziņa {
         width: 150px;
         position: absolute;
         margin-top: 32px;
-        margin-left: 40%;
+        margin-left: 41%;
         font-size: 15px;
         background-color: white;
         text-align: center;
@@ -58,12 +68,13 @@
         border: none;
         border-radius: 2px;
         height: 30px;
+        color:#3c4043;
       }
       .pidzinja2 {
         width: 150px;
         position: absolute;
         margin-top: 32px;
-        margin-left: 50.5%;
+        margin-left: 49.5%;
         font-size: 15px;
         background-color: rgb(250, 250, 250);
         border-radius: 2px;
@@ -71,15 +82,42 @@
         text-align: center;
         cursor: pointer;
         height: 30px;
+        color:#3c4043;
       }
       .icona {
         background-color: white;
       }
+      .Piedavajums {
+        position: absolute;
+        font-size: small;
+        font-family: arial,sans-serif;
+        color: #222;
+        margin-top: 400px;
+        margin-left: 800px;
+      }
+      .attels {
+        position: absolute;
+        margin-left: 88.5%;
+        margin-top: -85px;
+      }
+      .attels2 {
+        text-decoration: none;
+        cursor: pointer;
+      }
     </style>
+
+    <p class='Piedavajums'>Google piedāvājums:
+    <a href='#'>English</a>
+    <a href='#'>lietuvių</a>
+    <a href='#'>русский</a>
+    </p>
+
+    <p class='attels'><a href='#' class='attels2'>Attēli</a></p>
+    
     <button class='signin-poga' type='Sign in'>Sign in</button>
+    <img class='izvelne' href='#' src='menu.png' alt='izvelnes poga'>
 
-
-    <img class=' bilde-pizicija-horizontāli' src="logo.png" alt="Google Logo">
+    <img class='bilde-pizicija-horizontāli' src="logo.png" alt="Google Logo">
 
     <input class='searchbar Stils bilde-pizicija-horizontāli'  type="text" placeholder="Ko jūs vēlaties meklēt?" Nepieciešams>
 
