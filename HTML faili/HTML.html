@@ -2,63 +2,89 @@
 <html>
 
   <head>
+    <style>
+    </style>
     <title> Google </title>
+    <link rel="icon" href="google_logo.ico">
   </head>
 
   <body>
-
     <style>
       body {background-color: rgb(50, 50, 50);}
+      .signin-poga {
+        position: absolute;
+        border: none;
+        margin-left: 93.5%;
+        margin-top: -95px;
+        width: 96px;
+        height: 36px;
+        background-color: #1a73e8;
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 5px;
+
+      }
       .bilde-pizicija-horizontāli {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 108px;
       }
       .Stils {
         margin: auto;
         border: 3px solid #ff0000;
         padding: 10px;
       }
-      .vertikals {
-        margin-top: 108px;
-      }
       .searchbar {
-        border: 2px solid #2a2a2a;
-        background-color: #a1a1a1;
+        border: 1px solid #d3d3d3;
         border-radius: 25px;
         width: 30%;
         height: 25px;
-        color: #ffff;
+        color: rgba(0,0,0,.87);
         margin-top: 170px;
         outline: 0;
       }
       .podziņa {
+        width: 150px;
         position: absolute;
         margin-top: 32px;
-        margin-left: 43%;
+        margin-left: 40%;
         font-size: 15px;
         background-color: white;
+        text-align: center;
+        cursor: pointer;
+        background-color: rgb(250, 250, 250);
+        border: none;
         border-radius: 2px;
         height: 30px;
       }
       .pidzinja2 {
+        width: 150px;
         position: absolute;
         margin-top: 32px;
         margin-left: 50.5%;
         font-size: 15px;
-        background-color: white;
+        background-color: rgb(250, 250, 250);
         border-radius: 2px;
+        border: none;
+        text-align: center;
+        cursor: pointer;
         height: 30px;
       }
+      .icona {
+        background-color: white;
+      }
     </style>
+    <button class='signin-poga' type='Sign in'>Sign in</button>
 
-  <img class=' bilde-pizicija-horizontāli vertikals' src="logo.png" alt="Google Logo">
 
-  <input class='lielums searchbar Stils bilde-pizicija-horizontāli vertikals'  type="text" placeholder="Ko jūs vēlaties meklēt?" Nepieciešams>
+    <img class=' bilde-pizicija-horizontāli' src="logo.png" alt="Google Logo">
 
-  <button class='bilde-pizicija-horizontāli podziņa' type="Google meklēšana">Google meklēšana</button> 
-  <button class='bilde-pizicija-horizontāli pidzinja2' type="Es ticu veiksmei!">Es ticu veiksmei!</button>
+    <input class='searchbar Stils bilde-pizicija-horizontāli'  type="text" placeholder="Ko jūs vēlaties meklēt?" Nepieciešams>
 
-  
+    <button class='bilde-pizicija-horizontāli podziņa' type="Google meklēšana">Google meklēšana</button> 
+    <button class='bilde-pizicija-horizontāli pidzinja2' type="Es ticu veiksmei!">Es ticu veiksmei!</button>
+
   </body>
 </html>
