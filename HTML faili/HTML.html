@@ -39,6 +39,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 108px;
+
       }
       .Stils {
         margin: auto;
@@ -53,13 +54,12 @@
         color: rgba(0,0,0,.87);
         margin-top: 170px;
         outline: 0;
-        align
       }
       .podziņa {
         width: 150px;
         position: absolute;
-        margin-top: 32px;
         margin-left: 41%;
+        margin-top: 32px;
         font-size: 15px;
         background-color: white;
         text-align: center;
@@ -89,6 +89,8 @@
       }
       .Piedavajums {
         position: absolute;
+        margin-left: auto;
+        margin-right: auto;
         font-size: small;
         font-family: arial,sans-serif;
         color: #222;
@@ -99,21 +101,38 @@
         position: absolute;
         margin-left: 88.5%;
         margin-top: -85px;
+        font-family: arial,sans-serif;
+        font-size: 14px;
       }
       .attels2 {
         text-decoration: none;
         cursor: pointer;
+        color: black;
+      }
+      .gmail {
+        position: absolute;
+        margin-left: 85.5%;
+        margin-top: -85px;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+      }
+      .underline {
+        color: #1a0dab;
+        text-decoration: none;
+      }
+      .hover:hover {
+        text-decoration: underline;
       }
     </style>
 
     <p class='Piedavajums'>Google piedāvājums:
-    <a href='#'>English</a>
-    <a href='#'>lietuvių</a>
-    <a href='#'>русский</a>
+    <a class='underline hover' href='#'>English</a>
+    <a class='underline hover' href='#'>lietuvių</a>
+    <a class='underline hover' href='#'>русский</a>
     </p>
 
-    <p class='attels'><a href='#' class='attels2'>Attēli</a></p>
-    
+    <p class='gmail'><a herf='#' class='attels2 hover'>Gmail</a></p>
+    <p class='attels'><a href='#' class='attels2 hover'>Attēli</a></p>
     <button class='signin-poga' type='Sign in'>Sign in</button>
     <img class='izvelne' href='#' src='menu.png' alt='izvelnes poga'>
 
