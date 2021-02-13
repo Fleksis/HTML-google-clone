@@ -28,6 +28,12 @@
             width: 700px;
         }
 
+        .searchbar-lupa {
+            position: absolute;
+            margin-top: 27px;
+            margin-left: 840px;
+        }
+
         .searchbar-hover:hover {
             box-shadow: 0 0 6px #d3d3d3;
         }
@@ -155,6 +161,42 @@
             cursor: pointer;
         }
 
+        .video {
+            position: absolute;
+            border: none;
+            margin-top: 75px;
+            margin-left: 385px;
+            font-size: 14px;
+            width: 70px;
+            height: 40px;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .ziņas {
+            position: absolute;
+            border: none;
+            margin-top: 75px;
+            margin-left: 455px;
+            font-size: 14px;
+            width: 70px;
+            height: 40px;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .vēl {
+            position: absolute;
+            border: none;
+            margin-top: 75px;
+            margin-left: 525px;
+            font-size: 14px;
+            width: 70px;
+            height: 40px;
+            background-color: white;
+            cursor: pointer;
+        }
+
         .search_glass {
             width: 13px;
             height: 13px;
@@ -171,6 +213,57 @@
             width: 18px;
             height: 18px;
         }
+
+        .video-poga {
+            width: 16px;
+            height: 16px;
+        }
+
+        .iestatijumi {
+            position: absolute;
+            border: none;
+            margin-top: 75px;
+            margin-left: 700px;
+            font-size: 14px;
+            width: 70px;
+            height: 40px;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .riks {
+            position: absolute;
+            border: none;
+            margin-top: 82px;
+            margin-left: 790px;
+            font-size: 14px;
+            width: 45px;
+            height: 27px;
+            background-color: white;
+            cursor: pointer
+        }
+
+        .riks:hover {
+            background-color: #fcfcfc;
+            border-radius: 2px;
+            border: 0.5px solid #dadce0;
+            box-shadow: 1px;
+        }
+
+        .line {
+            width: 1903px;
+            position: absolute;
+            margin-left: -10px;
+            margin-top: 115px;
+            border: 0.5px solid #d3d3d3;
+        }
+
+        .Nosaukums {
+            font-family: arial,sans-serif;
+            font-size: 30px;
+            margin-top: 10px;
+            margin-left: 15px;
+        }
     </style>
 
     <!---
@@ -181,22 +274,28 @@
     </a>
 
     <input class='searchbar searchbar-hover'>
+    <img class='searchbar-lupa' src='searchbar_lupa.png' href='#'>
 
     <button class='signin-poga' href='#' type='Sign in'>Sign in</button>
     <img class='izvelne aplis' href='#' src='../Google_clone/menu.png' alt='izvelnes poga'>
 
-    <button class='viss pogas-spiedien' autofocus><img class='search_glass' src='search_glass.jpg'>Viss</button>
-    <button class='attēli pogas-spiedien'><img class='google-atteli' src='google_photos.jpg'>Attēls</button>
-    <button class='maps pogas-spiedien'><img class='maps-logo' src='google_maps_logo.jpg'>Maps</button>
-    <button class=''>Video</button>
-    <button class=''>Ziņas</button>
-    <button class=''>Vēl</button>
+    <button class='viss pogas-spiedien' href='#' autofocus><img class='search_glass' src='search_glass.jpg' alt='lupa'>Viss</button>
+    <button class='attēli pogas-spiedien' href='#'><img class='google-atteli' src='google_photos.jpg' alt='bildes'>Attēls</button>
+    <button class='maps pogas-spiedien' href='#'><img class='maps-logo' src='google_maps_logo.jpg' alt='maps'>Maps</button>
+    <button class='video pogas-spiedien' href='#'><img class='video-poga' src='Video_poga.png' alt='video'>Video</button>
+    <button class='ziņas pogas-spiedien' href='#'><img src='newspaper.png' alt='newpaper'>Ziņas</button>
+    <button class='vēl pogas-spiedien' href='#'><img src='tris_punkte.png'>Vēl</button>
+    <button class='iestatijumi' href='#'>Iestatījumi</button>
+    <button class='riks'>Rīki</button>
+
+    <h1 class='line'></h1>
 
     <div class='div'>
         <img class='rvt-bilde' href='#' src='Riga_K_Valdamara_.jpg'>
         <img class='google-maps' href='#' src='google_maps.png'>
         <button class='fotoattēli' href='#'>Skatīt fotoattēlus</button>
         <img class='maps-podzinja' href='#' src='google_mpas_podzinja.png'>
+        <p class='Nosaukums'>Rīgas Valsts Tehnikums</p>
     </div>
 
 
