@@ -1,118 +1,205 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Google meklēšana - "RVT"</title>
-        <link rel="icon" href="google_logo.ico">
-    </head>
 
-    <body>
-        <style>
-            .logo {
-                position: absolute;
-                margin-top: 18px;
-                margin-left: 15px;
-                width: 92px;
-                height: 32px;
-                cursor: pointer;
-            }
-            .searchbar {
-                position: absolute;
-                outline: 0;
-                margin-left: 150px;
-                margin-top: 18px;
-                border-radius: 25px;
-                border: 1px solid #d3d3d3;
-                padding: 12px;
-                width: 700px;
-            }
-            .searchbar-hover:hover {
-                box-shadow: 0 0 6px #d3d3d3;
-            }
-            .izvelne {
-                position: absolute;
-                cursor: pointer;
-                border: none;
-                margin-left: 91.5%;
-                margin-top: 8px;
-                width: 27px;
-                height: 24px;
-            }
-            .aplis:hover {
-                border-radius: 50%;
-                background-color: #dadce0;
-            }
-            .signin-poga {
-                position: absolute;
-                border: none;
-                margin-left: 93.5%;
-                margin-top: 0px;
-                width: 96px;
-                height: 36px;
-                background-color: #1a73e8;
-                color: #fff;
-                text-align: center;
-                cursor: pointer;
-                border-radius: 5px;
-            }
-            .viss {
-                position: absolute;
-                margin-top: 90px;
-                margin-left: 190px;
-                border: none;
-                font-size: 14px;
-                width: 70px;
-                height: 40px;
-                background-color: white;
-                cursor: pointer;
-                outline: none;
-            }
-            .attēli {
-                position: absolute;
-                border: none;
-                margin-top: 90px;
-                margin-left: 260px;
-                font-size: 14px;
-                width: 70px;
-                height: 40px;
-                background-color: white;
-                cursor: pointer;
-            }
-            .pogas-spiedien:focus {
-                border-bottom: 3px solid #1a73e8;
-            }
-            .maps {
-                position: absolute;
-                border: none;
-                margin-top: 90px;
-                margin-left: 330px;
-                font-size: 14px;
-                width: 70px;
-                height: 40px;
-                background-color: white;
-                cursor: pointer;
-            }
-            .search_glass {
-                width: 13px;
-                height: 13px;
-                margin-right: 5px;
-            }
-        </style>
-        
-        <!---
+<head>
+    <title>Google meklēšana - "RVT"</title>
+    <link rel="icon" href="google_logo.ico">
+</head>
+
+<body>
+    <style>
+        .logo {
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 15px;
+            width: 92px;
+            height: 32px;
+            cursor: pointer;
+        }
+
+        .searchbar {
+            position: absolute;
+            outline: 0;
+            margin-left: 150px;
+            margin-top: 18px;
+            border-radius: 25px;
+            border: 1px solid #d3d3d3;
+            padding: 12px;
+            width: 700px;
+        }
+
+        .searchbar-hover:hover {
+            box-shadow: 0 0 6px #d3d3d3;
+        }
+
+        .izvelne {
+            position: absolute;
+            cursor: pointer;
+            border: none;
+            margin-left: 91.5%;
+            margin-top: 8px;
+            width: 27px;
+            height: 24px;
+        }
+
+        .aplis:hover {
+            border-radius: 50%;
+            background-color: #dadce0;
+        }
+
+        .signin-poga {
+            position: absolute;
+            border: none;
+            margin-left: 93.5%;
+            margin-top: 0px;
+            width: 96px;
+            height: 36px;
+            background-color: #1a73e8;
+            color: #fff;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .div {
+            position: absolute;
+            width: 454px;
+            height: 1158px;
+            border: 1px #dadce0 solid;
+            margin-top: 164px;
+            margin-left: 885px;
+            border-radius: 10px;
+        }
+
+        .rvt-bilde {
+            position: absolute;
+            cursor: pointer;
+            border-top-left-radius: 10px;
+            width: 213px;
+            height: 160px;
+        }
+
+        .google-maps {
+            cursor: pointer;
+            margin-left: 214px;
+            border-top-right-radius: 10px;
+        }
+
+        .maps-podzinja {
+            position: absolute;
+            cursor: pointer;
+            width: 24px;
+            height: 24px;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+            height: 32px;
+            width: 32px;
+            border-radius: 2px;
+            background-color: rgba(255, 255, 255, 0.287);
+            margin-left: 415px;
+            margin-top: -160px;
+        }
+
+        .fotoattēli {
+            position: absolute;
+            background: rgba(0, 0, 0, .6);
+            color: #fff;
+            font-size: 14px;
+            width: 125px;
+            height: 32px;
+            margin-top: 128px;
+            margin-left: -366px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .viss {
+            position: absolute;
+            margin-top: 75px;
+            margin-left: 175px;
+            border: none;
+            font-size: 14px;
+            width: 70px;
+            height: 40px;
+            background-color: white;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .attēli {
+            position: absolute;
+            border: none;
+            margin-top: 75px;
+            margin-left: 245px;
+            font-size: 14px;
+            width: 70px;
+            height: 40px;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .pogas-spiedien:focus {
+            border-bottom: 3px solid #1a73e8;
+            color: #1a73e8;
+        }
+
+        .maps {
+            position: absolute;
+            border: none;
+            margin-top: 75px;
+            margin-left: 315px;
+            font-size: 14px;
+            width: 70px;
+            height: 40px;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .search_glass {
+            width: 13px;
+            height: 13px;
+            margin-right: 5px;
+        }
+
+        .maps-logo {
+            width: 11px;
+            height: 15px;
+            margin-right: 5px;
+        }
+
+        .google-atteli {
+            width: 18px;
+            height: 18px;
+        }
+    </style>
+
+    <!---
         Google logo ikona, kas ir links uz pirmās lapas"Google_clone.html" failu
         -->
-        <a href='../Google_clone/Google_clone.html'>
-            <img class="logo" src='google_logo.png' alt='Google_logo'>
-        </a>
+    <a href='../Google_clone/Google_clone.html'>
+        <img class="logo" src='google_logo.png' alt='Google_logo'>
+    </a>
 
-        <input class='searchbar searchbar-hover'>
+    <input class='searchbar searchbar-hover'>
 
-        <button class='signin-poga' type='Sign in'>Sign in</button>
-        <img class='izvelne aplis' href='#' src='../Google_clone/menu.png' alt='izvelnes poga'>
+    <button class='signin-poga' href='#' type='Sign in'>Sign in</button>
+    <img class='izvelne aplis' href='#' src='../Google_clone/menu.png' alt='izvelnes poga'>
 
-        <button class='viss pogas-spiedien' autofocus><img class='search_glass' src='search_glass.jpg'>Viss</button>
-        <button class='attēli pogas-spiedien'>Attēls</button>
-        <button class='maps pogas-spiedien'>Maps</button>
+    <button class='viss pogas-spiedien' autofocus><img class='search_glass' src='search_glass.jpg'>Viss</button>
+    <button class='attēli pogas-spiedien'><img class='google-atteli' src='google_photos.jpg'>Attēls</button>
+    <button class='maps pogas-spiedien'><img class='maps-logo' src='google_maps_logo.jpg'>Maps</button>
+    <button class=''>Video</button>
+    <button class=''>Ziņas</button>
+    <button class=''>Vēl</button>
 
-    </body>
+    <div class='div'>
+        <img class='rvt-bilde' href='#' src='Riga_K_Valdamara_.jpg'>
+        <img class='google-maps' href='#' src='google_maps.png'>
+        <button class='fotoattēli' href='#'>Skatīt fotoattēlus</button>
+        <img class='maps-podzinja' href='#' src='google_mpas_podzinja.png'>
+    </div>
+
+
+</body>
+
 </html>
