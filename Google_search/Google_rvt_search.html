@@ -17,12 +17,84 @@
             }
             .searchbar {
                 position: absolute;
+                outline: 0;
                 margin-left: 150px;
                 margin-top: 18px;
                 border-radius: 25px;
                 border: 1px solid #d3d3d3;
                 padding: 12px;
                 width: 700px;
+            }
+            .searchbar-hover:hover {
+                box-shadow: 0 0 6px #d3d3d3;
+            }
+            .izvelne {
+                position: absolute;
+                cursor: pointer;
+                border: none;
+                margin-left: 91.5%;
+                margin-top: 8px;
+                width: 27px;
+                height: 24px;
+            }
+            .aplis:hover {
+                border-radius: 50%;
+                background-color: #dadce0;
+            }
+            .signin-poga {
+                position: absolute;
+                border: none;
+                margin-left: 93.5%;
+                margin-top: 0px;
+                width: 96px;
+                height: 36px;
+                background-color: #1a73e8;
+                color: #fff;
+                text-align: center;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+            .viss {
+                position: absolute;
+                margin-top: 90px;
+                margin-left: 190px;
+                border: none;
+                font-size: 14px;
+                width: 70px;
+                height: 40px;
+                background-color: white;
+                cursor: pointer;
+                outline: none;
+            }
+            .attēli {
+                position: absolute;
+                border: none;
+                margin-top: 90px;
+                margin-left: 260px;
+                font-size: 14px;
+                width: 70px;
+                height: 40px;
+                background-color: white;
+                cursor: pointer;
+            }
+            .pogas-spiedien:focus {
+                border-bottom: 3px solid #1a73e8;
+            }
+            .maps {
+                position: absolute;
+                border: none;
+                margin-top: 90px;
+                margin-left: 330px;
+                font-size: 14px;
+                width: 70px;
+                height: 40px;
+                background-color: white;
+                cursor: pointer;
+            }
+            .search_glass {
+                width: 13px;
+                height: 13px;
+                margin-right: 5px;
             }
         </style>
         
@@ -33,6 +105,14 @@
             <img class="logo" src='google_logo.png' alt='Google_logo'>
         </a>
 
-        <input class='searchbar'>
+        <input class='searchbar searchbar-hover'>
+
+        <button class='signin-poga' type='Sign in'>Sign in</button>
+        <img class='izvelne aplis' href='#' src='../Google_clone/menu.png' alt='izvelnes poga'>
+
+        <button class='viss pogas-spiedien' autofocus><img class='search_glass' src='search_glass.jpg'>Viss</button>
+        <button class='attēli pogas-spiedien'>Attēls</button>
+        <button class='maps pogas-spiedien'>Maps</button>
+
     </body>
 </html>
