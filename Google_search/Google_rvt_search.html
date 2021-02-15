@@ -432,14 +432,112 @@
             text-decoration: underline;
         }
 
-        .poga3 {
+        .poga1 {
+            position: absolute;
             border: 1px solid #dadce0;
-            font-family: arial,sans-serif;
+            font-family: arial, sans-serif;
             color: #3c4043;
+            margin-left: 10px;
             height: 32px;
             width: 72px;
             font-size: 11px;
             font-weight: bold;
+        }
+
+        .poga2 {
+            position: absolute;
+            margin-left: 100px;
+            border: 1px solid #dadce0;
+            font-family: arial, sans-serif;
+            color: #3c4043;
+            margin-left: 100px;
+            height: 32px;
+            width: 72px;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        .poga3 {
+            position: absolute;
+            margin-left: 15px;
+            border: 1px solid #dadce0;
+            font-family: arial, sans-serif;
+            color: #3c4043;
+            margin-left: 190px;
+            height: 32px;
+            width: 72px;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        .poga-hover:hover {
+            box-shadow: 0 0 6px #d3d3d3;
+            background-color: rgb(250, 250, 250);
+        }
+
+        .Atsauksmes {
+            position: absolute;
+            margin-top: 40px;
+            margin-left: 10px;
+            color: #1a0dab;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .Atsauksmes:hover {
+            text-decoration: underline;
+        }
+
+        .skola {
+            position: absolute;
+            margin-top: 70px;
+            margin-left: 10px;
+            color: #878787;
+            font-family: arial, sans-serif;
+            font-size: 14px;
+        }
+
+        .underline-footer {
+            border-bottom: 1px solid #dadce0;
+            height: 354px;
+
+        }
+
+        .vikipedija {
+            color: #4d5156;
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-left: 10px;
+        }
+
+        .vikipedia {
+            cursor: pointer;
+            color: #1a0dab;
+            text-decoration: none;
+        }
+
+        .adrese {
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+
+        .laiks {
+            margin-left: 10px;
+            font-size: 14px;
+            font-family: arial, sans-serif;
+        }
+
+        .laiki {
+            margin-left: 100px;
+            font-size: 14px;
+            font-family: arial, sans-serif;
+        }
+
+        .font {
+            font-family: arial, sans-serif;
+            font-size: 14px;
         }
     </style>
 
@@ -472,18 +570,35 @@
     <h1 class='line'></h1>
 
     <div class='div'>
-        <img class='rvt-bilde' href='#' src='Riga_K_Valdamara_.jpg'>
-        <img class='google-maps' href='#' src='google_maps.png'>
-        <button class='fotoattēli' href='#'>Skatīt fotoattēlus</button>
-        <img class='maps-podzinja' href='#' src='google_mpas_podzinja.png'>
-        <p class='Nosaukums'>Rīgas Valsts Tehnikums</p>
-        <button class='poga3'>Vietne</button>
-        <button class='poga3'>Norādījumi</button>
-        <button class='poga3'>Saglabāt</button>
+        <div class='underline-footer'>
+            <img class='rvt-bilde' href='#' src='Riga_K_Valdamara_.jpg'>
+            <img class='google-maps' href='#' src='google_maps.png'>
+            <button class='fotoattēli' href='#'>Skatīt fotoattēlus</button>
+            <img class='maps-podzinja' href='#' src='google_mpas_podzinja.png'>
+            <p class='Nosaukums'>Rīgas Valsts Tehnikums</p>
+            <button class='poga1 poga-hover'>Vietne</button>
+            <button class='poga2 poga-hover'>Norādījumi</button>
+            <button class='poga3 poga-hover'>Saglabāt</button>
+            <a class='Atsauksmes' href='#'>Google atsauksmes</a>
+            <p class='skola'>Arodizglītības skola Rīgā</p>
+        </div>
+        <p class='vikipedija'>Rīgas Valsts tehnikums, saīsinājumā RVT, ir mācību iestāde Rīgā. Šī mācību iestāde
+            dibināta 1919. gada 29. decembrī. Rīgas Valsts tehnikumā var iegūt nepieciešamās zināšanas, prasmes un
+            iemaņas atbilstoši profesiju standartiem un esošajām kvalifikācijas prasībām. <a class='vikipedia'
+                href='#'>Vikipēdija</a></p>
+        <p class='adrese'><b>Adrese:</b> Krišjāņa Valdemāra iela 1C, Centra rajons, Rīga, LV-1010</p>
+        <p class='laiks'><b>Darba laiks: Pirmdiena 08-17</b></p>
+        <p class='laiki'>Otrdien 08-17</p>
+        <p class='laiki'>Trešdien 08-17</p>
+        <p class='laiki'>Ceturdien 08-17</p>
+        <p class='laiki'>Piekdien 08-17</p>
+        <p class='laiki'>Sestdiena slēgts</p>
+        <p class='laiki'>Svētdiena slēgts</p>
+        <p class='font'><b>Valsts:</b><a href='#'>Latvija</a></p>
+        <p class='font'><b>Tālruņa numuri:</b> <a href='#'>67 324 146</a></p>
     </div>
 
     <h1 class='Rezultati'>Aptuveni 8 290 000 rezūltāti (0,75 sekundes)</h1>
-
 
     <div>
         <p class='links'>www.rvt.lv</p>
@@ -517,7 +632,6 @@
         <a class='stipendijas' href='#'>Rīgas valsts tehnikums stipendijas</a>
         <a class='nodalja' href='#'>Rvt nodaļa</a>
     </div>
-
 
 </body>
 
