@@ -18,13 +18,13 @@ Palīdzības materiālus, lai saprastu kā varu HTML valodā izdarīt konkrēu l
 
 **Oriģinālā google lapa.**
 
-![Oriģinālaisgoogle](Screenshot_110.png)
+![Oriģinālaisgoogle](/screenshoti/Screenshot_110.png)
 
 ---
 
 **Mana google lapa**
 
-![ManaLapa](Screenshot_109.png)
+![ManaLapa](/screenshoti/Screenshot_109.png)
 
 # Kā man patika šis darbs
 
