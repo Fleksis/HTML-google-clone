@@ -12,4 +12,4 @@ Darbs tika veikts `VSC (Visual Studio Code)` programmā, kuru es šī procesa la
 
 Materiālu, kā ikonas vai bildes priekš `Google clone` tikas meklētas internetā visādās mājaslapās kas dod tādu iespēju meklēt un lādēt iconas.
 
-Palīdzības materiālus, lai saprastu kā varu HTML valodā izdarīt konkrēu lietu viss biežāk tika maklēts [https://www.w3schools.com/]](https://www.w3schools.com/)
+Palīdzības materiālus, lai saprastu kā varu HTML valodā izdarīt konkrēu lietu viss biežāk tika maklēts `https://www.w3schools.com/`
