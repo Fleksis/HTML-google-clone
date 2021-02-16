@@ -16,12 +16,16 @@ Palīdzības materiālus, lai saprastu kā varu HTML valodā izdarīt konkrēu l
 
 ## Manu lapu salīdzināšana ar oriģinālo Google lapu
 
-Oriģinālā google lapa.
+**Oriģinālā google lapa.**
 
 ![Oriģinālaisgoogle](Screenshot_110.png)
 
 ---
 
-Mana google lapa
+**Mana google lapa**
 
 ![ManaLapa](Screenshot_109.png)
+
+# Kā man patika šis darbs
+
+Man šitas darbs ļoti patika, iemācijos HTML pamatus, kā arī ļoti patika mans rezūltāts ko es sasniedzu pa šo nedēļu. Varbūt nav baigi kvalatatīvi uztaisīts, bet es ļoti centos šo darbu uztaisīt iespējas labāk!
