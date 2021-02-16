@@ -18,7 +18,7 @@ Palīdzības materiālus, lai saprastu kā varu HTML valodā izdarīt konkrēu l
 
 Oriģinālā google lapa.
 
-![Oriģinālaisgoogle](Screenshot_10.png)
+![Oriģinālaisgoogle](Screenshot_110.png)
 
 ---
 
